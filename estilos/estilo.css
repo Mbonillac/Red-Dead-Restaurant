@@ -1,0 +1,167 @@
+/*--Otras etiquetas-----------------------------------------------------------*/
+body {
+        background-color:#000000;
+        color:inherit;
+        background-image:url(../img/web/fondo.jpg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-attachment:fixed;
+        background-size:cover;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+     }
+
+a {text-decoration: none;}
+
+table {
+        width:100%;
+        font-size: 20px;
+        text-align:center;
+      }
+
+.divindex {text-align:center;}
+
+p {
+   font-size: 18px;
+   color:#FFFFFF;
+  }
+
+h1 {text-align:center;}
+
+h3 {color:#FFFFFF;}
+
+/*----------------------------------------------------------------------------*/
+/* Tabla desplazamiento de index.html----------------------------------------*/
+
+.desplazamientoindex {
+                      background-color: #000000;
+                      border-collapse:collapse;
+                      height:50px;
+                      padding: 1%;
+                     }
+
+.desplazamientoindex td {border: #990000 1px solid;}
+
+/*----------------------------------------------------------------------------*/
+/*-- Tabla Desplazamiento web -----------------------------------------------*/
+
+.desplazamiento {
+                  background-color: #000000;
+                  border-collapse:collapse;
+                }
+
+.desplazamiento tr {height:auto;}
+
+.desplazamiento td {
+                    width:12%;
+                    border: #FF0000 1px solid;
+                   }
+
+.seleccionada {
+               background-color: #585858;
+               border: #FF0000 1px solid;
+              }
+
+/*----------------------------------------------------------------------------*/
+/*-- Tabla texmex, ensaladas, carnes, humburguesas, postres ------------------*/
+
+.platos {border-spacing: 5px;}
+
+.platos td {width:25%;}
+
+.tdtexto {background-color:#000000;}
+
+/*----------------------------------------------------------------------------*/
+/** Tabla social -------------------------------------------------------------*/
+
+
+.social {
+          background-color: #32559A;
+          border-collapse:collapse;
+        }
+
+.social td {border: #000000 1px solid;}
+
+.tdarriba {width:2%;}
+
+
+/*----------------------------------------------------------------------------*/
+/*--tabla alérgenos-----------------------------------------------------------*/
+
+.alergenos {
+             text-align:left;
+             background-color: #EAECC6;
+             }
+
+.alergenos td {vertical-align: top;}
+
+ul>li {list-style-type: square;}
+
+/*----------------------------------------------------------------------------*/
+/*--Etiquetas de enlaces------------------------------------------------------*/
+
+a:link {color: #FFFFFF;}
+
+a:visited {color: #FFFFFF;}
+
+a:hover {
+        color: #F99;
+       	text-shadow: 0 0 5px rgba(223,1,1,1),
+                     0 0 10px rgba(255,0,0,1),
+                 	   0 0 20px rgba(254,46,46,1),
+                 		 0 0 40px rgba(250,88,88,1),
+                 		 0 0 80px rgba(247,129,129,1),
+                 		 0 0 90px rgba(245,169,169,1),
+                 		 0 0 100px rgba(246,206,206,1),
+                 		 0 0 140px rgba(248,224,224,1),
+                 	   0 0 180px rgba(251,239,239,1);
+        }
+
+a:active {color: #FFFFFF;}
+
+/*Enlaces barra desplazamiento social en index--------------------------------*/
+
+.socialindex:hover {
+                    color: #FFF;
+                  	text-shadow:0 0 5px rgba(0,178,255,1),
+                  		          0 0 10px rgba(0,178,255,1),
+                  		          0 0 20px rgba(0,178,255,1),
+                  		          0 0 40px rgba(38,104,127,1),
+                  		          0 0 80px rgba(38,104,127,1),
+                            		0 0 90px rgba(38,104,127,1),
+                            		0 0 100px rgba(38,104,127,1),
+                            		0 0 140px rgba(38,104,127,1),
+                            		0 0 180px rgba(38,104,127,1);
+                  }
+
+/*----------------------------------------------------------------------------*/
+/*--imagenes -----------------------------------------------------------------*/
+
+img {
+      width:100%;
+      height: auto;
+     }
+
+.banner-index {
+                display:block;
+                width:60%;
+                height:auto;
+                margin:auto;
+              }
+
+.arribapagina {
+                display: block;
+                width:40px;
+                height:50px;
+              }
+
+.alergenos>tbody>tr>td>img {
+                             width:20%;
+                             height:auto;
+                            }
+
+.ensaladas {
+            width:70%;
+            height:auto;
+            margin:auto;
+           }

@@ -1,0 +1,133 @@
+/*--Etiquetas ----------------------------------------------------------------*/
+
+body {
+      Background-color: #2A6299;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height:30px;
+     }
+
+table {
+       font-size: 20px;
+       width:100%;
+       text-align: center;
+     }
+
+samp, label, sub, li, dt, h3, h2, h4 {color:#FFFFFF;}
+
+h1 {
+   text-align:center;
+   color:#FFFFFF;
+  }
+
+span {color:#FF0000;}
+
+p {
+  color:#FFFFFF;
+  display: inline;
+  }
+
+div {text-align:center;}
+
+/*----------------------------------------------------------------------------*/
+/*-- Tabla Desplazamiento web ------------------------------------------------*/
+
+ .desplazamiento {
+                   background-color: #32559A;
+                   border-collapse:collapse;
+                 }
+
+ .desplazamiento tr {height:auto;}
+
+ .desplazamiento td {border: #000000 1px solid;}
+
+.cartatd {
+          background-color: #000000;
+          border-collapse:collapse;
+          width:10%;
+        }
+
+.tdcabecera {width:15%;}
+
+
+/*----------------------------------------------------------------------------*/
+/*--Enlaces ------------------------------------------------------------------*/
+
+a {text-decoration: none;}
+
+a:link {color: #FFFFFF;}
+
+a:visited {color: #FFFFFF;}
+
+a:hover {
+          color: #FFF;
+        	text-shadow: 0 0 5px rgba(0,178,255,1),
+                       0 0 10px rgba(0,178,255,1),
+                    	 0 0 20px rgba(0,178,255,1),
+                    	 0 0 40px rgba(38,104,127,1),
+                    	 0 0 80px rgba(38,104,127,1),
+                    	 0 0 90px rgba(38,104,127,1),
+                     	 0 0 100px rgba(38,104,127,1),
+                    	 0 0 140px rgba(38,104,127,1),
+                    	 0 0 180px rgba(38,104,127,1);
+         }
+
+a:active {color: #FFFFFF;}
+
+.carta:hover {
+               color: #F99;
+               text-shadow: 0 0 5px rgba(223,1,1,1),
+                            0 0 10px rgba(255,0,0,1),
+                            0 0 20px rgba(254,46,46,1),
+                            0 0 40px rgba(250,88,88,1),
+                            0 0 80px rgba(247,129,129,1),
+                            0 0 90px rgba(245,169,169,1),
+                            0 0 100px rgba(246,206,206,1),
+                            0 0 140px rgba(248,224,224,1),
+                            0 0 180px rgba(251,239,239,1);
+              }
+/*----------------------------------------------------------------------------*/
+/*--Imágenes -----------------------------------------------------------------*/
+
+.banner-cabecera {
+                  display:block;
+                  width: 100%;
+                  height: auto;
+                 }
+
+.arribapagina {
+                display: block;
+                width:30px;
+                height:60px;
+              }
+
+.cactusasterisco {
+                  width:17px;
+                  height:28px;
+                 }
+
+.banner_rrss {
+              width:24%;
+              margin-left:auto;
+              margin-right:auto;
+             }
+
+
+.mapaandalucia {
+                width:30%;
+                height:auto;
+                padding-right: 5%;
+                padding-top: 105px;
+                float:right;
+               }
+
+/*----------------------------------------------------------------------------*/
+/*--Formulario ---------------------------------------------------------------*/
+
+.formulario {
+             display:block;
+             width:60%;
+             text-align:left;
+             margin:auto;
+           }
+
+/*----------------------------------------------------------------------------*/
